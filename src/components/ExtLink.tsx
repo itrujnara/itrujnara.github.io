@@ -1,16 +1,15 @@
-import { NavLink, To } from "react-router-dom"
 import LinkContent from "./LinkContent"
 
-export default function DialogAnswer({
+export default function ExtLink({
   href,
   children,
 }: {
-  href: To
+  href: string
   children: React.ReactNode
 }) {
   return (
-    <NavLink to={href} className="w-full">
+    <a href={href} target="_blank" className="w-full">
       <LinkContent>{children}</LinkContent>
-    </NavLink>
+    </a>
   )
 }

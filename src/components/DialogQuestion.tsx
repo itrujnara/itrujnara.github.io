@@ -13,7 +13,9 @@ export default function DialogQuestion({ children }: { children: string }) {
           alt={`Photo of ${displayName}`}
           className="rounded-full"
         />
-        <div className="m-auto text-sm text-center">{displayName}</div>
+        <div className="m-auto text-sm text-center  text-indigo-500">
+          {displayName}
+        </div>
       </div>
       <div className="grow text-white text-xl lg:text-4xl font-mono text-justify">
         <div className="w-full h-full flex items-center justify-center">

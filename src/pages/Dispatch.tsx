@@ -13,12 +13,10 @@ export default function Dispatch() {
         What brings you here today?
       </DialogQuestion>
       <DialogSeparator />
-      <DialogAnswer href="/resumeDispatch">
+      <DialogAnswer href="/resume">
         I want to talk about your work or hobbies.
       </DialogAnswer>
-      <DialogAnswer href="/contactDispatch">
-        I want to get in touch.
-      </DialogAnswer>
+      <DialogAnswer href="/contact">I want to get in touch.</DialogAnswer>
       <DialogAnswer href="/appDispatch">
         I want to use your web apps.
       </DialogAnswer>
