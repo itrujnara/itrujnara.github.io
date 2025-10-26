@@ -1,4 +1,4 @@
-import NiceLink from "@/components/ui/nice_link"
+import NiceLink from "@/components/ui/nice_link";
 
 export default function HomePage() {
   return (
@@ -9,10 +9,10 @@ export default function HomePage() {
       />
       <h1 className="py-4 text-center text-accent">Hi, I'm Igor</h1>
       <p>
-        I am a computational biologist at the Center for Genomic Regulation in
-        Barcelona. I'm currently working on my master's project in Roderic
-        Guigó's lab. I work on large language models for automated genome
-        annotation.
+        I am a computational biologist at the Institute for Research in
+        Biomedicine in Barcelona. I currently work on as a technician in Toni
+        Gabaldon's lab. I work on analyzing metagenomics results with machine
+        learning with the objective of early colorectal cancer detection.
       </p>
       <p>
         I also do game development in the startup Vistula Development. I'm
@@ -27,6 +27,10 @@ export default function HomePage() {
         <strong>Want to explore my work?</strong> See{" "}
         <NiceLink to="/projects">Projects</NiceLink>.
       </p>
+      <p>
+        <strong>Want to know more about me?</strong> See my{" "}
+        <NiceLink to="/cv">CV</NiceLink>.
+      </p>
     </div>
-  )
+  );
 }

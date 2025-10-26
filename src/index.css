@@ -79,8 +79,12 @@
   body {
     @apply bg-background text-foreground;
   }
-  .homepage p {
+  .homepage p,
+  .project-card p {
     @apply py-2;
+  }
+  .project-card p {
+    @apply text-lg;
   }
   h1 {
     @apply text-4xl font-bold;

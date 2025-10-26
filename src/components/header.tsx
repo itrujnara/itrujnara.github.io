@@ -1,5 +1,5 @@
-import { Link } from "react-router-dom"
-import NiceLink from "./ui/nice_link"
+import { Link } from "react-router-dom";
+import NiceLink from "./ui/nice_link";
 
 export default function Header() {
   return (
@@ -8,7 +8,7 @@ export default function Header() {
         Igor Trujnara
       </Link>
       <nav>
-        <ul className="pt-4 md:pt-0 flex flex-col md:flex-row gap-4 text-xl">
+        <ul className="pt-4 md:pt-0 flex flex-col md:flex-row gap-4 text-xl text-center md:text-left">
           <li>
             <NiceLink variant="nav" to="/">
               Home
@@ -24,13 +24,13 @@ export default function Header() {
               CV
             </NiceLink>
           </li>
-          <li>
+          {/* <li>
             <NiceLink variant="nav" to="/blog">
               Blog
             </NiceLink>
-          </li>
+          </li> */}
         </ul>
       </nav>
     </header>
-  )
+  );
 }
