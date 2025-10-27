@@ -6,7 +6,7 @@ import { faLink, faNewspaper } from "@fortawesome/free-solid-svg-icons";
 export default function ProjectsPage() {
   return (
     <div className="text-justify">
-      <h1 className="text-center text-3xl text-accent mb-4">Projects</h1>
+      <h1 className="text-center mb-4">Projects</h1>
       <p className="text-lg my-4">
         This page contains information about the major projects I have worked
         on.
@@ -125,7 +125,7 @@ export default function ProjectsPage() {
           group="Notredame Lab, CRG"
         >
           <p>
-            The lab’s research focuses on computational methods, with special
+            The lab's research focuses on computational methods, with special
             emphasis on systematic comparison of equivalent methods. In this
             framework, I developed a project about comparing publicly available
             gene orthology predictions through the analysis of prediction
@@ -142,7 +142,7 @@ export default function ProjectsPage() {
             comparative analysis. The pipeline was developed within nf-core, a
             large open-source method development community that creates
             high-quality Nextflow pipelines and components for computational
-            science. Within the time frame of the bachelor’s project, I managed
+            science. Within the time frame of the bachelor's project, I managed
             to fully implement a first working version of the pipeline and make
             a first release. I also ran some proof-of-concept bulk analysis on a
             sample of 1000 human genes, as well as fine-grained analysis on

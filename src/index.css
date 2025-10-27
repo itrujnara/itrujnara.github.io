@@ -80,13 +80,34 @@
     @apply bg-background text-foreground;
   }
   .homepage p,
-  .project-card p {
+  .project-card p,
+  .cv p {
     @apply py-2;
   }
-  .project-card p {
+  .project-card p,
+  .cv p {
     @apply text-lg;
   }
+  .contact p {
+    @apply mb-2 text-lg flex items-center gap-2;
+    a {
+      @apply text-2xl;
+    }
+  }
   h1 {
-    @apply text-4xl font-bold;
+    @apply text-4xl font-bold mb-4;
+    @apply text-accent;
+  }
+  h2 {
+    @apply text-2xl font-semibold mb-3;
+    @apply text-accent;
+  }
+  h3 {
+    @apply text-xl font-semibold mb-2;
+    @apply text-foreground;
+  }
+  h4 {
+    @apply text-lg font-semibold mb-1;
+    @apply text-muted-foreground;
   }
 }

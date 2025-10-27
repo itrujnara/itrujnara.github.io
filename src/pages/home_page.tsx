@@ -31,6 +31,10 @@ export default function HomePage() {
         <strong>Want to know more about me?</strong> See my{" "}
         <NiceLink to="/cv">CV</NiceLink>.
       </p>
+      <p>
+        <strong>Want to get in touch?</strong> Go to the{" "}
+        <NiceLink to="/contact">Contact</NiceLink> page.
+      </p>
     </div>
   );
 }
